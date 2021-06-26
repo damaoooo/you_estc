@@ -3,7 +3,7 @@ import json
 
 def sign_in():
     session = {'JSESSIONID':'自己抓'}
-    url = 'https://xgaffairs.uestc.edu.cn/wxvacation/monitorRegisterForReturned'
+    url = 'https://jzsz.uestc.edu.cn/wxvacation/monitorRegisterForReturned'
     data = {
 	"healthCondition": "正常",
 	"todayMorningTemperature": "36°C~36.5°C",
